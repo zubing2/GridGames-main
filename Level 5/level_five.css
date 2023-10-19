@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  /* Style rows and columns */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+#title {
+  grid-column: 1/-1;
+}
+
+.friend {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.cousin {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.sibling {
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.aunt {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.uncle {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.grandparent{ 
+  grid-row: span 2;
+  grid-column: span 2;
+}
