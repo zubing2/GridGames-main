@@ -1,7 +1,8 @@
 .container {
   display: grid;
   /* Style rows and columns */
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 #title {
@@ -33,7 +34,7 @@
   grid-column: span 1;
 }
 
-.grandparent{ 
+.grandparent {
   grid-row: span 2;
   grid-column: span 2;
 }
